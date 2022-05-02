@@ -1,0 +1,142 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html {
+    scroll-behavior: smooth;
+  }
+.header{
+    overflow: hidden;
+    border: 2px solid transparent;    
+    width: 204vh;
+    height: 100vh;
+}
+body{
+    overflow: hidden;
+    background-position: fixed;
+    background-attachment: fixed;
+    flex-wrap: wrap;
+    /* background: linear-gradient(90deg, #b447eb 0%, #57aeff 95%); */
+    background: url(images/bg-10.jpg);
+    /* background: white; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    border: 2px solid transparent;
+    overflow: hidden;
+    width: 210vh;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -90vh;
+    margin-right: 10vh;
+}
+a{
+    margin-left: 7vh;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #2d2d2d;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.content{
+    border: 2px solid transparent;
+    height: 88vh;
+    display: flex;
+}
+.fa-bars{
+    border: 2px solid  transparent;
+    border-radius: 1vh;
+    height: fit-content;
+    margin-left: 197vh;
+    margin-top: 5vh;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 5px orange;
+}
+.fa-xmark{
+    border: 2px solid  transparent;
+    border-radius: 100%;
+    height: fit-content;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 5px orange;
+    margin-left: 197vh;
+    margin-top: 5vh;
+}
+.disp{
+    border: 2px solid transparent;
+    display: flex;
+    background: fixed;
+    background-attachment: fixed;
+}
+a:hover{
+    color: #8b0000;
+}
+a:active{
+    color: #6BCB77;
+}
+a:visited{
+    color: #FFD93D;
+}
+.fa-bars:hover{
+    cursor: pointer;
+}
+.fa-xmark:hover{
+    cursor: pointer;
+}
+.heading{
+    border: 2px solid transparent;
+    width: 100vh;
+    height: 86.5vh;
+    overflow: hidden;
+}
+.photo{
+    border: 2px solid transparent;
+    width: 110vh;
+    height: 86.5vh;
+    overflow: hidden;
+}
+.hd1{
+    border: 2px solid transparent;
+    height: 86vh;
+}
+.hd3{
+    border: 2px solid transparent;
+    height: 86vh;
+}
+.hd2{
+    border: 2px solid transparent;
+    height: 86vh;
+}
+h1{
+    margin-top: 5vh;
+    margin-left: 15vh;
+    font-size: 20vh;
+    font-weight: bolder;
+    position: absolute;
+}
+.bg{
+    border: 2px solid transparent;
+    width: 50vh;
+    height: 50vh;
+    margin-left: 7vh;
+    margin-top: 11.5vh;
+    background: url(images/me-removebg-preview.png);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    position: absolute;
+}
+.radi{
+    width: 65vh;
+    height: 65vh;
+    border-radius: 100% 100% 100% 100%;
+    margin-left: 18vh;
+    margin-top: 8vh;
+}
+h1:hover{
+    text-shadow: 2px 2px 5px white;
+    transition: 1s;
+}
