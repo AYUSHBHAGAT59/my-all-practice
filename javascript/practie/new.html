@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="open" onclick="open()">open</button>
+    <nav style="border: 2px solid black; width: 500px; height: auto; color: aliceblue; background-color: black; display: none;">
+        <a href="#" style="color: aliceblue; text-decoration: none;">one</a> <br><br>
+        <a href="#" style="color: aliceblue; text-decoration: none;">two</a> <br><br>
+        <a href="#" style="color: aliceblue; text-decoration: none;">three</a> <br><br>
+        <a href="#" style="color: aliceblue; text-decoration: none;">four</a> <br><br>
+        <a href="#" style="color: aliceblue; text-decoration: none;">five</a> <br><br>
+        <a href="#" style="color: aliceblue; text-decoration: none;">six</a> <br><br>
+    </nav>
+</body>
+<script>
+    var nav = document.getElementsByTagName('nav')[0]
+    var btn = document.getElementById('open')
+    
+    function open() {
+        nav.style.display = "block";
+
+    }
+</script>
+</html>
