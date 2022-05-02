@@ -1,0 +1,30 @@
+.container{
+    width: 203vh;
+    height: 98vh;
+    border: 2px solid transparent;
+    background-color: rgba(211, 211, 211, 0.39);
+}
+body{
+    overflow: hidden;
+}
+.content{
+    width: 190vh;
+    height: 90vh;
+    border: 2px solid transparent;
+    margin: 4vh 6vh;
+    display: flex;
+}
+.data1{
+    border: 2px solid transparent;
+    width: 63vh;
+    height: 90vh;
+    overflow: hidden;
+}
+hr{
+    margin-top: 10vh;
+  height:1px;
+  width: 20vh;
+  border: 10px dotted;
+  border-style: none none dotted;
+  color: grey
+}
