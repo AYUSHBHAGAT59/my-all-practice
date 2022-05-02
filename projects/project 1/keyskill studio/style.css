@@ -1,0 +1,26 @@
+    .nav{
+    border: 2px solid black;
+    width: auto;
+    height: 11vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    overflow: hidden;
+    }
+    .nav nav{
+       
+        /* margin: 1vw 70vh; */
+        border: 2px solid green;
+        display: flex;
+        width: 50rem;
+        height: 10vh;
+        overflow: hidden;
+        text-align: center;
+    }
+    a{
+        /* padding: 1vh; */
+        text-decoration: none;
+        padding: 4vh 8vh;
+        font-size: larger;
+        color: green;
+    }

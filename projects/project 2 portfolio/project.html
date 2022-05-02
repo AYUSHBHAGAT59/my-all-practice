@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayush Bhagat-Project</title>
+    <link rel="shortcut icon" href="ayush bhagat.png" type="image/x-icon">
+    <style>
+        #container{
+            border: 2px solid #585b63;
+             width: 100vh;
+              border-radius: 1vh;
+               color: brown;
+                height: 100vh;
+            background: url(bg3.svg);
+            background-repeat: no-repeat;
+              background-position: center; 
+              background-size: cover;
+            background-attachment: scroll;
+        }
+        body{
+            background: url(new.jpg);
+             background-repeat: no-repeat;
+              background-position: bottom; 
+              background-size: cover;
+              background-attachment: fixed;
+        }
+        a{
+            color: black;
+            text-decoration: none;
+        }
+        #h1{
+            color: black;
+        }
+        #h1:hover{
+            font-size: 5vh;
+            transition: 1s;
+            color: brown;
+        }
+        a:hover{
+            font-size: 3vh;
+            transition: 1s;
+            color: rgba(144, 238, 144, 0.685);
+        }
+        header{
+            display: flex;
+            border: 2px solid transparent;
+            padding: 4vh;
+        }
+        #ba{
+            font-size: larger;
+            font-weight: bolder;
+            color: aliceblue;
+            word-spacing: .5vh;
+            letter-spacing: .5vh;
+        }
+        #cm{
+            font-size: larger;
+            font-weight: bolder;
+            color: aliceblue;
+            word-spacing: .5vh;
+            letter-spacing: .5vh;
+            margin-left: 160vh;
+        }
+        @media screen and (max-width:600px) {
+            body{
+                overflow: hidden;
+                justify-content: center;
+                align-items: center;
+                overflow-y: hidden;
+                overflow-x: hidden;
+                background-attachment: fixed;
+                background-position: center;
+                overflow: hidden;
+            }
+            #container{
+                width: 60vh;
+                height: 85vh;
+                overflow-y: hidden;
+                overflow-x: hidden;
+                justify-content: center;
+                align-items: center;
+                background-position: center;
+                background-size: cover;
+            }
+            header{
+                border: 2px solid transparent;
+                overflow-y: hidden;
+                overflow-x: hidden;
+                width: auto;
+            }
+            #cm{
+                border: 2px solid transparent;
+                display: flex;
+                overflow: hidden;
+                width: fit-content;
+                justify-content: center;
+                align-items: center;
+                margin-left: 18vh;
+            }
+            #ba{
+                border: 2px solid transparent;
+                display: flex;
+                overflow: hidden;
+                width: fit-content  ;
+                padding-right: 0vh ;
+                margin-top: 1vh;
+                justify-content: center;
+                align-items: center;
+            }
+            nav{    
+                display: flex;
+                overflow: hidden;
+                border: 2px solid transparent;
+                width: 50vh;
+                height: fit-content;
+                justify-content: center;
+                align-items: center;
+                margin-left: 5vh;
+            }
+        }
+
+
+        @media screen and (max-width:500px) {
+            body{
+                overflow: hidden;
+                justify-content: center;
+                align-items: center;
+                overflow-y: hidden;
+                overflow-x: hidden;
+                background-attachment: fixed;
+                background-position: center;
+                overflow: hidden;
+            }
+            #container{
+                width: 60vh;
+                height: 85vh;
+                overflow-y: hidden;
+                overflow-x: hidden;
+                justify-content: center;
+                align-items: center;
+                background-position: center;
+                background-size: cover;
+            }
+            header{
+                border: 2px solid transparent;
+                overflow-y: hidden;
+                overflow-x: hidden;
+                width: auto;
+            }
+            #cm{
+                border: 2px solid transparent;
+                display: flex;
+                overflow: hidden;
+                width: fit-content;
+                justify-content: center;
+                align-items: center;
+                margin-left: 18vh;
+            }
+            #ba{
+                border: 2px solid transparent;
+                display: flex;
+                overflow: hidden;
+                width: fit-content  ;
+                padding-right: 0vh ;
+                margin-top: 1vh;
+                justify-content: center;
+                align-items: center;
+            }
+            nav{    
+                display: flex;
+                overflow: hidden;
+                border: 2px solid transparent;
+                width: 50vh;
+                height: fit-content;
+                justify-content: center;
+                align-items: center;
+                margin-left: 5vh;
+            }
+        }
+
+        @media screen and (max-width:400px) {
+            body{
+                overflow: hidden;
+                justify-content: center;
+                align-items: center;
+                overflow-y: hidden;
+                overflow-x: hidden;
+                background-attachment: fixed;
+                background-position: center;
+                overflow: hidden;
+            }
+            #container{
+                width: 60vh;
+                height: 85vh;
+                overflow-y: hidden;
+                overflow-x: hidden;
+                justify-content: center;
+                align-items: center;
+                background-position: center;
+                background-size: cover;
+            }
+            header{
+                border: 2px solid transparent;
+                overflow-y: hidden;
+                overflow-x: hidden;
+                width: auto;
+            }
+            #cm{
+                border: 2px solid transparent;
+                display: flex;
+                overflow: hidden;
+                width: fit-content;
+                justify-content: center;
+                align-items: center;
+                margin-left: 18vh;
+            }
+            #ba{
+                border: 2px solid transparent;
+                display: flex;
+                overflow: hidden;
+                width: fit-content  ;
+                padding-right: 0vh ;
+                margin-top: 1vh;
+                justify-content: center;
+                align-items: center;
+            }
+            nav{    
+                display: flex;
+                overflow: hidden;
+                border: 2px solid transparent;
+                width: 50vh;
+                height: fit-content;
+                justify-content: center;
+                align-items: center;
+                margin-left: 5vh;
+            }
+        }
+
+        @media screen and (max-width:300px) {
+            body{
+                overflow: hidden;
+                justify-content: center;
+                align-items: center;
+                overflow-y: hidden;
+                overflow-x: hidden;
+                background-attachment: fixed;
+                background-position: center;
+                overflow: hidden;
+            }
+            #container{
+                width: 60vh;
+                height: 85vh;
+                overflow-y: hidden;
+                overflow-x: hidden;
+                justify-content: center;
+                align-items: center;
+                background-position: center;
+                background-size: cover;
+            }
+            header{
+                border: 2px solid transparent;
+                overflow-y: hidden;
+                overflow-x: hidden;
+                width: auto;
+            }
+            #cm{
+                border: 2px solid transparent;
+                display: flex;
+                overflow: hidden;
+                width: fit-content;
+                justify-content: center;
+                align-items: center;
+                margin-left: 18vh;
+            }
+            #ba{
+                border: 2px solid transparent;
+                display: flex;
+                overflow: hidden;
+                width: fit-content  ;
+                padding-right: 0vh ;
+                margin-top: 1vh;
+                justify-content: center;
+                align-items: center;
+            }
+            nav{    
+                display: flex;
+                overflow: hidden;
+                border: 2px solid transparent;
+                width: 50vh;
+                height: fit-content;
+                justify-content: center;
+                align-items: center;
+                margin-left: 5vh;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <nav>
+        <a id="ba" href="about.html">...Back</a>
+        <a id="cm" href="form.html">Contact Me...</a>
+    </nav>
+</header>
+    <center>
+    <div id="container">
+        <h1 id="h1"><u>My projects...</u></h1>
+        <hr>
+        <a href="index.html" target="_blank"><h1>Project 1</h1></a>
+        <hr>
+        <a href="project2.html"><h1>Project 2</h1></a>
+        <hr>
+    </div>
+</center>
+</body>
+</html>
