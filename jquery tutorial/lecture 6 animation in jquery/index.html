@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="apply">animate now</button>
+    <button id="applyed">restore</button>
+    <div id="animate">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui porro doloribus et soluta, quidem provident non corrupti. Commodi suscipit consequatur corrupti ad tempore magni. Quidem, est id. Deserunt voluptatibus rem vitae laborum saepe quae atque ipsa sequi, placeat enim magni quia repellat in eligendi qui, harum maxime odit consequatur velit? Adipisci eos rem quo omnis amet velit impedit aperiam architecto possimus ipsa accusantium placeat officia quaerat doloribus nostrum minus atque quibusdam beatae dolor ab alias, repellendus reprehenderit tempora. Magni consectetur cupiditate doloribus? Inventore nostrum illum animi rem quas amet dolorem distinctio, sunt consequuntur obcaecati possimus nulla fugiat debitis accusamus adipisci? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam similique veritatis, debitis accusantium voluptatibus neque id. Praesentium delectus quaerat ipsam quia doloremque incidunt velit provident aut culpa ducimus molestiae voluptatum necessitatibus non eligendi nostrum exercitationem, expedita voluptate architecto repudiandae officiis doloribus inventore veniam et! Quisquam illum harum cupiditate, amet aut fugit quidem quaerat veniam aspernatur asperiores voluptas illo, odit cumque esse aliquid omnis est unde doloremque tenetur quibusdam hic magnam eum! Ad iure tempora ipsum officia facere amet? Fuga modi maiores iusto quo consequatur eligendi cupiditate, corporis nam suscipit consequuntur error pariatur iure exercitationem maxime possimus minus perspiciatis debitis quaerat? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus aliquam similique odio nesciunt animi, voluptas corporis eaque adipisci, unde optio natus eius! Odio, exercitationem suscipit ipsa sit accusamus cumque ea ipsum a, nulla doloribus enim expedita magni at maxime corporis dicta earum? Laboriosam delectus rem totam, ea fugit doloremque ipsa sed odit deleniti iusto dignissimos expedita tempore unde quasi, soluta debitis quisquam, provident itaque ducimus sequi. Nemo, molestias iusto ab magni repudiandae velit cumque. Illo laudantium ad ipsum accusantium blanditiis voluptatem, esse illum quod nam aliquam culpa totam id vero deserunt cum? Nam libero quasi esse, perspiciatis incidunt neque quidem.
+    </div>
+
+    <div id="tog" style="width: 150px; height: 150px; background-color: black;"></div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+    //simple animation
+
+    // $(document).ready(function(){
+    //     $('#apply').click(function () {
+    //         $('#animate').hide(2000);
+    //         $('#animate').animate({opacity:0.3},2000);
+    //     });
+    // });
+
+    //complax animation
+    // $(document).ready(function () {
+    //     $('#apply').click(2000,function () {
+    //         $('#tog').animate({
+    //             width: "250px",
+    //             height: "250px",
+    //             opacity: '0.4'
+    //         });
+    //     });
+    // });
+
+    //completing tp
+
+    // $(document).ready(function () {
+    //     $('#applyed').click(function () {
+    //         $('#animate').show(2000);
+    //         $('#animate').animate({opacity:100},2000);
+    //         $('#tog').animate({
+    //             width: '150px',
+    //             height: '150px',
+    //             opacity: '100'
+    //         });
+    //     });
+    // });
+
+    // ques in animation:(it means that it execute one by one)
+    // $(document).ready(function () {
+    //     $('#apply').click(function () {
+    //         $('#animate').animate({opacity:0.3},2000);
+    //         $('#animate').animate({opacity:100},4000);
+    //         $('#animate').animate({width:'150px'},6000);
+    //         $('#animate').hide(2000);
+    //     });
+
+              //stop function
+
+              
+    //     $('#applyed').click(function () {
+    //         $('#animate').toggle(stop())
+    //     })
+    // });
+</script>
+</html>

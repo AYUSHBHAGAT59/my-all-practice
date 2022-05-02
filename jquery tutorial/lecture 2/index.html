@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p>this is the body 1</p>
+    <p id="second" class="first">this is the body 2</p>
+    <p class="first">this is the body 3</p>
+    <p class="first">this is the body 4</p>
+    <p class="first">this is the body 5</p>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+    //TYPES OF SELECTORS IN JQUERY:
+    //1. to select whole tag at once: $('tagname') = is known as (element selector)
+    //2. to select class: $('.classname') = is known as (class selector)
+    //3. to select id: $('#idname') = is known as (id selector)
+
+    //1. ELEMENT SELECTOR
+
+    // $(document).ready(function () {
+        
+       //to hide all p
+    //    $('p') .click(function () {
+    //        $('p').hide();
+    //        console.log('hiding all p at a time');
+    //    });
+
+    //to hide only clicked p
+    // $('p').click(function () {
+    //     $(this).hide();
+    // });
+
+    //putting background color
+    // $('p').click(function () {
+    //    $(this).css("background-color","red");
+    // });
+    // });
+    
+
+    //2. id selector
+
+    // $('#second').click(function () {
+
+         //to changed dom name
+        // $(this).html("you clicked on p", this); 
+        // console.log("you have clicked", this);
+
+        //applying bsckground color to id
+        // $(this).css("background-color","yellow");
+    // });
+
+    //3. class selector
+
+        // $('.first').hover(function () {
+            //for testing that it is working
+            // console.log("you hovered");
+
+            //for applying background color to all at a time
+            // $('.first').css("background-color","blue");
+
+            // for applying background color to selected
+        //     $(this).css("background-color","blue");
+        // });
+
+        // $('p').click(function(){
+            // console.log("use clicked",this);
+            // console.log($('*').click());
+            // });
+
+            // $(document).ready(function () {
+            //     $('p').click(function () {
+            //         $('p').css("font-size","10px");
+            //     });
+            // });
+
+
+            //other selectors
+            //$('p.first').click(); for cliking the elements and ther given class name
+            //1. $('*').click();  //from this all p are selected
+            //$(this).givenfunction()
+            //$('p#second').click();//for cliking elements and there id
+            // $('p:first').click()//
+</script>
+
+</html>

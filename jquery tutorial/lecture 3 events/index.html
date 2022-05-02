@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- <h1>events in jquery</h1> -->
+    <p class="all" id="sign">paragraph 1</p>
+    <p class="all">paragraph 2</p>
+    <p class="all">paragraph 3</p>
+    <p class="all">paragraph 4</p>
+    <p class="all">paragraph 5</p>
+  <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat consequuntur incidunt perspiciatis beatae nemo recusandae sed sunt provident mollitia rerum consectetur eaque fugit error libero tempora, magni cumque, animi magnam.lorem5  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, libero?</h1>
+  </h1></h1>
+  <span>hello how are you</span>
+<br>
+  <input type="text" id="nme"><br>
+  <span id="rst">0</span>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+    // events in jquery
+    // mouse events = click,onclick,dblclick,mouseenter,mouseover,mouseup,mousedown,mouseleave,etc...
+    // keyboardsevents = keypress,keydown,MediaKeyStatusMap,etc...
+    // form event = submit,change,focus,blur...
+    // document/window event = load,resize,scroll,unload,etc...
+
+    //from element selector
+    $(document).ready(function () {
+        //     $('p').dblclick(function () {
+        //         // console.log("you double clicked on p");
+        //         // console.log((this).$(console.log("successfully done")));
+        //         console.log($(this).hide());
+        //     });
+
+        //from class selector
+        // $('.all').mouseenter(function () {
+        //     console.log($('.all').css("background-color","green"));  //apply all at a time
+        //     //console.log($(this).css("background-color","green"));   // apply css to given p
+        // });
+
+        //from id selector
+        // $('#sign').click(function () {
+        // console.log($('#sign').html("hellow world"));
+        // });
+
+        // on method  //it is use used for handleing various events
+        //one event hendling
+        // $('p').on('click',function () {
+        //     console.log("you clicking on p");
+        // }); 
+
+        //more then two event handling
+    //     $('p').on({
+
+    //         click: function () {
+    //             console.log("first event is successfully run");
+    //         },
+    
+    //         mouseleave: function () {
+    //             console.log("2nd event is working successfully run");
+    //         },
+    
+    //         mouseenter: function () {
+    //             console.log("3rd event is working successfully run");
+    //         },
+    
+    //         mouseover:function () {
+    //             alert("4th event is working successfully run");
+    //             prompt("is all functions or event working properly??");
+    //             confirm("are you sure?, if it is yes then press ok")
+    //         },
+
+    //mouse new event testing
+
+        // $('span').mousedown(function () {
+        //     console.log("your mouse is removed");
+        // });
+        // });
+
+    //to hide h1
+        // $(document).ready(function (params) {
+        //     $('#sign').click(function () {
+        //         $('h1').hide()
+        //     });
+        // });
+
+//applying css [selection not for user]
+        // $('body').hover(function () {
+            // console.log("hello");
+            // $('body','html').css("user-select","none");
+        // }); 
+
+
+
+    //     //keybord event
+    //         i=0;
+    //     $('#nme').keypress(function () {
+    //         $('#rst').text(i+=1);
+    //     });
+    //     // $('#nme').value == ' ';
+    //     // $('#rst').text(i-=1);
+
+//     $( "#nme" ).keydown(function() {
+//   alert( "Handler for .keydown() called. by keydown event " );
+// })
+
+// $( "#nme" ).keyup(function() {
+//   alert( "Handler for .keyup() called." );
+// });
+    });
+
+
+
+</script>
+
+</html>

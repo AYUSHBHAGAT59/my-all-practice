@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="btn">call now</button>
+    <div id="call">
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio cumque reiciendis dicta veritatis suscipit totam modi excepturi dolorum repudiandae tenetur voluptate, dolorem deserunt labore saepe quis harum beatae facere hic obcaecati illum officiis sequi debitis vero. Saepe quam, cumque dolor molestias corporis accusamus quos quo reiciendis, doloribus earum ad alias expedita maxime? Ea sunt illo nobis tempora libero non magnam beatae aperiam hic soluta, in nihil error esse est, odit molestias quasi aliquam ab sint quo alias earum. Similique minus magnam a quasi ea. Maxime voluptate corrupti aliquam error quis nam ab accusamus est fugiat quas quidem necessitatibus, natus reprehenderit? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, numquam! Eveniet eos animi dolorem inventore odit cupiditate beatae facilis repudiandae laudantium in aspernatur labore quaerat adipisci, at totam similique amet. Exercitationem voluptas recusandae aspernatur in odio obcaecati, architecto cupiditate velit perferendis asperiores eos culpa, id ab beatae et quas quae, magnam minus dolorum alias porro pariatur aperiam. Voluptatem provident aliquid repellendus porro nihil vel amet. Repudiandae, ratione doloribus! Deleniti iusto, unde corrupti beatae quaerat veniam quo ipsa quidem laborum aperiam animi labore laudantium iure ea impedit ab consectetur architecto hic nam sit. Voluptas, reiciendis a quia deserunt hic mollitia asperiores!
+</div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $('#btn').click(function () {
+            $('#call').animate({opacity:0.3},2000, function () {
+                $('#call').hide(2000);
+            });
+            
+            //we can also write in this form 
+
+            // $('#call').hide(2000,function () {
+            //     console.log("your callback function is successfully run!!");
+            // });
+        });
+    });
+</script>
+</html>

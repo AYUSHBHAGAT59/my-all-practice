@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jquery Lecture 1</title>
+</head>
+
+<body>
+    <p>this is my body 1</p>
+    <p>this is my body 2</p>
+    <p>this is my body 3</p>
+    <p>this is my body 4</p>
+    <p>this is my body 5</p>
+
+</body>
+
+
+<!--INTRODUCTION OF JQUERY,CDN'S AND TYPES OF SELECTORS  -->
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<!--all cdn of jquery-->
+
+<script>
+    console.log($);  //$ and jquery are both same   (for checking that our jquery is working or not)
+    console.log("we are learning jquery");
+
+    //jquery syntax
+    // $('selector').action();
+
+    //example of jquery syntax
+    //$('p').click(); //select p then click.   after click on p run following function (if this line is removed then also function will work properly as it is just an example)
+    $(document).ready(function () {
+
+        $('p').click(function () {
+            console.log("you clicked on p");
+            $(this).hide(); //to hide selected p
+            //$('p').hide(); //to hide all p at once
+        });
+    });
+    //$('document').ready(): it means when our doucment is ready then run the given function
+    //to select id: $('#idname') = is known as (id selector)
+    //to select class: $('.classname') = is known as (class selector)
+    //to select whole tag at once: $('tagname') = is known as (element selector)
+    //to select one of whole tag name: $(this)
+</script>
+
+</html>

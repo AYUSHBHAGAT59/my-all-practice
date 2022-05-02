@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident accusamus reiciendis error, aperiam suscipit dignissimos dolor totam esse maiores vitae sapiente. Dolor nemo aliquam laudantium maiores labore minima fuga cupiditate. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, aliquid vero corrupti recusandae ratione odit aspernatur vel dolorem, quidem blanditiis quae, harum iste eveniet! Nihil cupiditate provident, enim quo nulla earum molestias quod consequuntur hic, aliquam voluptates, pariatur iure! Vel debitis cum corporis perspiciatis similique accusamus quibusdam nobis repellendus saepe? Quo ad repudiandae sunt sit expedita ratione non rem harum aperiam, labore doloribus officiis distinctio voluptatibus dolor quia dolore similique asperiores saepe velit autem necessitatibus eius eveniet eos. Esse mollitia minima autem ex officiis obcaecati fuga! Iure, doloremque, expedita ratione quo saepe cupiditate, necessitatibus odio consectetur aliquam ut ab cumque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos est dolores maxime ipsa aliquid, voluptatibus similique quod harum quo aperiam temporibus iure illum sint consequatur facere dolore beatae amet doloribus. Ad dicta ab, obcaecati optio libero eaque reiciendis, deserunt laboriosam voluptate blanditiis molestias laudantium quibusdam sint sapiente harum eveniet maiores pariatur accusamus, dolorum tempore aspernatur animi eligendi magnam voluptatibus? Praesentium cupiditate consequuntur quas dolor obcaecati, reiciendis eos velit alias iure rem placeat ullam expedita, at ratione fuga, ea blanditiis aspernatur qui! Rerum recusandae dolorem nesciunt omnis consequatur beatae itaque quos, nostrum incidunt iusto placeat. Nulla ipsa enim obcaecati soluta consequuntur. <button id="btn">show more</button> <span id="show">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe enim cumque sint corrupti exercitationem nam harum accusantium aut temporibus quibusdam odio voluptatum quae doloremque itaque, obcaecati et ipsa provident nulla accusamus sequi, quas, eligendi blanditiis! Sunt assumenda et libero fuga fugiat consectetur, possimus, illo autem cumque quisquam est quasi provident in exercitationem ab! Exercitationem, mollitia debitis, ex neque magni quod impedit repellat molestias suscipit veritatis quaerat possimus natus beatae velit optio quos totam dolorem officia! Consectetur perferendis, corporis fugit ab veniam alias, dicta ducimus voluptatibus distinctio unde ullam voluptas, aspernatur dolor hic nobis? Libero labore, atque maiores facilis quaerat laborum.</span> <button id="less">show less</button> 
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#show').hide();
+        $('#less').hide();
+
+        $('#btn').click(function () {
+        $('#less').show();
+        $('#show').show();
+        });
+
+        $('#less').click(function () {
+            $('#show').hide();
+            $('#less').hide();
+        });
+    });
+</script>
+</html>

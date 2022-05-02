@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button id="btn">slide now</button>
+    <div id="slide">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium minima facere quidem porro
+        dicta ullam, non voluptatibus eos necessitatibus ipsam, animi, deserunt eius nesciunt cupiditate? Ex et aperiam
+        maxime cum odio quibusdam iure tempore, inventore aut molestiae, recusandae quos pariatur. Vero molestiae
+        officiis itaque velit rerum voluptas voluptate sint impedit? Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Eum quaerat officia quibusdam ad vel repellat est reiciendis incidunt, voluptatibus possimus eaque fuga
+        cumque aliquam, exercitationem et ea omnis quis. Suscipit? Lorem ipsum dolor sit amet consectetur, adipisicing
+        elit. Nulla alias labore earum! Quo ipsam, odit dignissimos soluta nobis fuga error ad deserunt! Laudantium
+        explicabo delectus sint voluptas tempora. Laborum recusandae nobis corporis earum neque consectetur iusto
+        quaerat accusantium excepturi odit esse aliquid fugiat, reprehenderit fuga numquam? Soluta non corrupti
+        repellat. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo officia recusandae tenetur
+        voluptatum officiis cumque sequi voluptates, quas aperiam, eveniet tempore! Doloribus iure dolore eos laborum,
+        nobis vitae facere impedit consectetur libero fuga molestiae similique quidem pariatur accusamus delectus
+        eligendi tempore aspernatur hic deserunt sequi exercitationem? Minus tempore distinctio eos ut atque, labore
+        asperiores molestias perspiciatis impedit, eveniet deleniti id aut, explicabo eius rerum blanditiis tempora quod
+        excepturi voluptatem repellat unde corporis! Possimus libero unde aspernatur quidem fugiat at, eos pariatur
+        saepe sed alias tempore, placeat est ea quas maiores officiis dolorem sint a hic temporibus quam perferendis id
+        cumque.</div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+    $(document).ready(function () {
+        //to hide lorem part by clicking button
+        $('#btn').click(function () {
+            $('#slide').slideToggle(1000);
+        });
+        //to hide lorem part automatically after 10second
+        // $('#slide').hide(10000);
+    });
+
+    //some similar slider functions
+    //slideDown();
+    //slideUp();
+    //slideToggle();
+</script>
+
+</html>
