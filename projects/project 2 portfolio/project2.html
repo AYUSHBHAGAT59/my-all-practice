@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coming Soon</title>
+    <link rel="shortcut icon" href="ayush bhagat.png" type="image/x-icon">
+    <style>
+        #c{
+            margin-left: 20vh;
+            word-spacing: 20vh;
+            letter-spacing: 20vh;
+            animation: abc;
+        }
+        #s{
+            /* padding: 20vh; */
+            word-spacing: 5vh;
+            letter-spacing: 5vh;
+            animation: abc;
+        }
+        body{
+            background-color: lightgreen;
+            color: aliceblue;
+            font-size: xx-large;
+            font-weight: bolder;
+        }
+        #s:hover{
+            transition: 1s;
+            transform: rotateX(180deg);
+            color: black;
+        }
+        #c:hover{
+            transition: 1s;
+            transform: rotateY(360deg);
+            color: black;
+        }
+        #emo{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid transparent;
+            width: fit-content;
+            border-radius: 100%;
+        }
+        #f{
+            display: none;
+        }
+       #emo:hover #s{
+            transition: 1s;
+            transform: rotateZ(360deg);
+       } 
+       @media screen and (max-width:600px) {
+           #c{
+            margin-left: 5vh;
+            word-spacing: 13vh;
+            letter-spacing: 13vh;
+        }
+       }
+    </style>
+</head>
+<body>
+    <center>
+    <h1 id="c">COMMING</h1><br><br>
+    <h1 id="s">SOON.....</h1><br><br>
+    <div id="emo">
+    <h1 id="s">&#128525</h1>
+</div>
+</center>
+</body>
+</html>
