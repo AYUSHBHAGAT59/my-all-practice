@@ -1,0 +1,8 @@
+{
+    "workbench.colorTheme": "Dark-Dracula",
+    "editor.mouseWheelZoom": true,
+    "editor.wordWrap": "on",
+    "diffEditor.wordWrap": "on",
+    "terminal.integrated.sendKeybindingsToShell": true,
+    "php.validate.executablePath": ""
+}
