@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>array method</h1>
+</body>
+<script>
+    const item = [
+        {name:'bike', price:100},
+        {name:'T.V', price:200},
+        {name:'album', price:10},
+        {name:'book', price:5},
+        {name:'phone', price:500},
+        {name:'computer', price:1000},
+        {name:'keyboard', price:25}
+    ]
+
+    //filter array
+    const filterditem = item.filter((item) => {
+        return item.price = 100;
+    });
+
+    console.log(item[5]);
+    console.log(filterditem);
+
+    //map array
+    const itemnames = item.map((item)=>{
+        return item.name
+    })
+    console.log(itemnames);
+
+    //find method
+    const finditem = item.find((item)=>{
+        return item.name === 'book'; //only first item will it accecpt
+        return item.name === 'phone';
+        return item.price === 100;
+    })
+    console.log(finditem);
+
+    //foreach array
+    item.forEach((item)=>{
+        console.log(item.name);
+        console.log(item.price);
+    })
+
+    //some array
+    const expensiv = item.some((item)=>{
+        return item.price = 1000   //output: true , it accecpt first
+        return item.price = 0   //output: false
+    })
+    console.log(expensiv);
+
+    //every method
+    const expensiv2 = item.every((item)=>{
+        return item.price <= 10  //false
+    })
+    console.log(expensiv2);
+
+    //reduce method
+    //include method
+</script>
+</html>
